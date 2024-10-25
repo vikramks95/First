@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+}
+.left-section {
+    background-color: #243447;
+    color: white;
+    padding: 20px;
+    width: 35%;
+}
+.right-section {
+    padding: 20px;
+    width: 65%;
+}
+.profile-image {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+h1, h2 {
+    margin: 10px 0;
+}
+.contact, .education, .skills, .languages {
+    margin-bottom: 20px;
+}
+.contact li, .education li, .skills li, .languages li {
+    list-style: none;
+    margin-bottom: 8px;
+}
+.work-experience h3 {
+    margin: 10px 0;
+}
+.references h3 {
+    margin: 5px 0;
+}
